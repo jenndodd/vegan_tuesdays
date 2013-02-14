@@ -3,7 +3,9 @@ common: &common
   encoding: utf8
   pool: 8
   username: vegan_tuesdays
-  password:
+  password: chicken8
+  host: localhost
+  port: 5432
   min_messages: WARNING
 
 
@@ -51,7 +53,7 @@ test:
   database: vegan_tuesdays_test
   pool: 5
   username: vegan_tuesdays
-  password:
+  password: chicken8
 
 production:
   adapter: postgresql
@@ -59,4 +61,4 @@ production:
   database: vegan_tuesdays_production
   pool: 5
   username: vegan_tuesdays
-  password:
+  password: 
