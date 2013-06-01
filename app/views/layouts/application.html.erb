@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>VeganTuesdays</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+	<div id="container">
+
+		<div id="header"><a class="logo" href="#">Vegan Tuesdays</a></div>
+		<div id="nav">               
+			<div class="nav"> <a href="#">Home</a></div>
+			<div class="nav"> <a href="#">Recipes</a></div>
+			<div class="nav"> <a href="#">About</a></div>
+		</div>
+		<div id="content">
+
+			<%= yield %>
+
+		</div>
+	</div>
+
+</body>
+</html>
