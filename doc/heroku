@@ -1,0 +1,11 @@
+heroku open
+heroku help git
+heroku create vegantuesdays
+heroku keys:add
+git push heroku master
+heroku help apps
+heroku apps:destroy vt-dev
+heroku list
+heroku apps:destroy morning-plateau-6311
+heroku domains:add www.vegantuesdays.com
+heroku domains:add vegantuesdays.com
